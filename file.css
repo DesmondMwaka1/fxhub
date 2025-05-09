@@ -1,0 +1,117 @@
+html,body{
+    background-color:lightgrey;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:larger;
+    color: aqua;
+    background-color: black;
+}
+body {
+    padding-bottom: 80px; 
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+#two{
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 35px;
+    width: 80%;
+    text-align: left;
+    color:teal;
+}
+p,li{
+    color: azure;
+}
+#welc{
+    color: azure;
+}
+#one{
+    background-color:aqua;
+    width: 5%;
+    border-radius: 10px;
+    color: black;
+    align-items: center;
+    align-content: center;
+    font-weight: bold;
+    font-size: medium;
+}
+#one:hover{
+    transform:translateX(2px);
+}
+.mid{
+    margin-top: 5%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+}
+.midLeft{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 2.5%;
+}
+.midRight{
+    display: flex;
+    flex-direction: column;
+    width:45%;
+    background-size: cover; 
+    background-position: center; 
+}
+.midRight img {
+    height: 600px;
+    width: 675px;
+    border-radius: 10px;
+}
+
+table{
+    border-spacing:45px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#fol{
+    color: violet;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    color:black;
+    background-color:azure;
+    height: 75px;
+    bottom: 0;
+    position:fixed;
+}
+#name{
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+}
+#email{
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+}
+#message{
+    border-radius: 15px;
+    width: 450px;
+    height: 300px;
+}
+.sly{
+    height: 50px;
+}
+#subm{
+    background-color: aliceblue; 
+    height:50px; 
+    width:75px; 
+    border-radius:15px;
+    font-weight: bold;
+}
